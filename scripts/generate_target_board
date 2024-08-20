@@ -11,7 +11,7 @@ def parse_options(argv):
   parser.add_argument('--build-arch-abi', type = str, required = True,
                       help = 'The arch and abi when build, like ' +
                              '--with-arch=rv64gcv --with-abi=lp64d' +
-                             'in riscv-gnu-toolchain configure, ' +
+                             'in clairvoyant-compiler configure, ' +
                              'within format rv64gcv-lp64d.')
   parser.add_argument('--extra-test-arch-abi-flags-list', type=str,
                       help = 'The arch, abi and flags list for extra test,' +
