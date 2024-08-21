@@ -19,8 +19,8 @@ Vagrant.configure("2") do |config|
     mkdir /opt/riscv
     chown vagrant /opt/riscv
     cd /home/vagrant
-    sudu -u vagrant git clone --recursive https://github.com/riscv/riscv-gnu-toolchain
-    cd riscv-gnu-toolchain
+    sudu -u vagrant git clone --recursive https://github.com/kagandikmen/clairvoyant-compiler
+    cd clairvoyant-compiler
     sudo -u vagrant ./configure --prefix=/opt/riscv --enable-multilib
     sudo -u vagrant make -j 12 linux
     echo "vagrant provisioner - running tests"
