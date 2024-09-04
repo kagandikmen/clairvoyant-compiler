@@ -16,8 +16,8 @@ jobs:
             target: rv32gc-ilp32d
           - mode: musl
             compiler: llvm
-          - os: ubuntu-22.04
-            compiler: gcc
+          # - os: ubuntu-22.04
+          #   compiler: gcc
     steps:
       - name: Remove unneeded frameworks to recover disk space
         run: |
