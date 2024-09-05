@@ -55,8 +55,3 @@ FAIL: gcc.dg/torture/pr86389.c
 FAIL: gcc.dg/torture/stackalign/nested-5.c
 FAIL: gcc.dg/torture/stackalign/nested-6.c
 FAIL: gcc.dg/tree-ssa/tailcall-7-run.c
-
-#
-# clairvoyant allowlist
-#
-FAIL: gcc.target/riscv/xtheadfmv-fmv.c

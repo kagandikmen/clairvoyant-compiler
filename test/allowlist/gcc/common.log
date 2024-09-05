@@ -22,3 +22,8 @@ FAIL: gcc.target/riscv/arch-19.c
 #
 UNRESOLVED: gcc.target/riscv/mcpu-6.c
 UNRESOLVED: gcc.target/riscv/mcpu-7.c
+
+#
+# clairvoyant allowlist
+#
+FAIL: gcc.target/riscv/xtheadfmv-fmv.c
